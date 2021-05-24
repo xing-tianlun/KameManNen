@@ -1,0 +1,104 @@
+main {
+  flex: 1 !important;
+}
+
+/* 大标题 */
+.item-top-title-wrap .item-top-title {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 26px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  padding-top: 30px;
+  margin-bottom: 90px;
+}
+
+/* 小标题 */
+.item-category-title-wrap {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.item-top-list-wrap {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.item-top-list-wrap .item-top-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.item-top-list-wrap .item-top-list li {
+  position: relative;
+  width: 31.33333%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.item-top-list-wrap .item-top-list li a {
+  display: block;
+  transition: 0.4s;
+}
+
+.item-top-list-wrap .item-top-list li a img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.item-top-list-wrap .item-top-list li a .item-top-list-title {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 678px) {
+  .item-top-list-wrap .item-top-list li {
+    width: 48%;
+  }
+
+  .item-top-list-wrap .item-top-list li {
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+@media screen and (min-width: 678px) {
+  .item-top-list-wrap .item-top-list li a:hover {
+    opacity: 0.4;
+  }
+
+  .item-top-list-wrap .item-top-list li a {
+    display: block;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  }
+}

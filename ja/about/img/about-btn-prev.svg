@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-about-btn-prev">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="about-btn-prev" clip-path="url(#clip-about-btn-prev)">
+    <path id="パス_281" data-name="パス 281" d="M763.8,963.609l-32-18.475,32-18.475Z" transform="translate(-727.298 -925.159)" fill="#fff"/>
+  </g>
+</svg>

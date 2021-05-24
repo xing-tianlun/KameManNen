@@ -1,0 +1,364 @@
+main {
+  flex: 1 !important;
+}
+
+.content-kv-rightmargin-wrap {
+  width: 100%;
+}
+
+.content-kv-rightmargin-wrap .content-kv-rightmargin-inner {
+  width: calc(100% - 120px);
+}
+
+.content-kv-rightmargin-wrap .content-kv-rightmargin-inner .content-title-kv {
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 26px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.content-body {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content-body .content-title.is-flagshipshop {
+  font-size: 28px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  margin-top: 90px;
+  margin-bottom: 0px;
+}
+
+.content-body .content-title.is-flagshipshop-sub {
+  margin-top: 12px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+}
+
+
+.content-body .content-title {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.content-body .content-txt.is-center {
+  text-align: center;
+}
+
+.content-body .content-txt {
+  font-size: 15px;
+  line-height: 200%;
+}
+
+.maintenance-top-photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 0;
+  margin-top: 80px;
+}
+
+.maintenance-top-photo-list li {
+  width: 33.33333333333%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.maintenance-top-photo-list li img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-contact-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-contact-wrap .btn-contact {
+  font-family: 'HelveticaLTPro-Roman', serif;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  font-style: normal;
+  line-height: 120%;
+  margin: 120px 0;
+  padding: 40px 160px 34px 160px;
+}
+
+
+
+.top-info-wrap.is-flagshipshop,
+.maintenance-info-wrap.is-flagshipshop,
+.flagshipshop-info-wrap.is-flagshipshop {
+  margin-top: 120px;
+}
+
+.flagshipshop-info-wrap .flagshipshop-info-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flagshipshop-info-wrap .bar {
+  width: 1px;
+  height: 36px;
+  background: #000;
+  margin: 0 auto 30px auto;
+}
+
+.flagshipshop-info-wrap.is-flagshipshop .info-list-wrap {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 120px auto;
+}
+
+.flagshipshop-info-wrap .info-list-wrap .info-list {
+  text-align: left;
+  margin-left: 120px;
+}
+
+.flagshipshop-info-wrap .info-list-wrap .info-list li {
+  display: flex;
+  padding: 12px 0px;
+  font-size: 12px;
+  line-height: 180%;
+}
+
+.flagshipshop-info-wrap .info-list-wrap .info-list li .date {
+  width: 124px;
+}
+
+.flagshipshop-info-wrap .info-list-wrap .info-list li .title {
+  width: calc(100% - 124px);
+}
+
+/* 下方两图 */
+.content-rightmargin-wrap {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.content-rightmargin-wrap .content-rightmargin-inner {
+  width: 68%;
+}
+
+.content-rightmargin-wrap .content-rightmargin-inner img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* kagurazaka */
+.flagshipshop-sns-wrap {
+  margin-bottom: 120px;
+}
+
+.flagshipshop-sns-wrap .title {
+  text-align: center;
+  margin: 120px auto 10px auto;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.flagshipshop-sns-wrap .icon {
+  width: 46px;
+  margin: 0 auto;
+  padding: 10px;
+  opacity: 1;
+  transition: all 400ms 0s ease-out;
+}
+
+.flagshipshop-sns-wrap .icon:hover {
+  opacity: .4;
+}
+
+/* map */
+.flagshipshop-map-wrap {
+  width: 100%;
+  margin: 0px auto 240px auto;
+}
+
+.flagshipshop-map-wrap .map-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flagshipshop-map-wrap .map-title-sub {
+  text-align: center;
+  /* font-family: "FOT-マティス Pro M","游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 180%;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flagshipshop-map-wrap .map-info-wrap {
+  text-align: center;
+  line-height: 200%;
+  margin-top: 80px;
+}
+
+.flagshipshop-map-wrap .map-info-wrap .title {
+  /* font-family: "FOT-マティス Pro M","游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 180%;
+  margin-bottom: 14px;
+}
+
+.flagshipshop-map-wrap .map-info-wrap .txt {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 678px) {
+  .content-kv-rightmargin-wrap.is-flagshipshop-kv {
+    margin-top: calc(140px * -1);
+  }
+
+  .content-kv-rightmargin-wrap {
+    margin-bottom: 90px;
+  }
+
+  .content-kv-rightmargin-wrap {
+    width: 100%;
+  }
+
+  .content-kv-rightmargin-wrap .content-kv-rightmargin-inner.is-maintenance {
+    background: url(../flagshipshop/img/flagshipshop-kv-sp.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .content-kv-rightmargin-wrap .content-kv-rightmargin-inner {
+    width: 100%;
+    height: 133.3333333vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-kv-rightmargin-wrap .content-kv-rightmargin-inner .content-title-kv {
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+  }
+
+  .content-body {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .content-body {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+  .content-body .content-title.is-flagshipshop {
+    margin-top: -20px !important;
+    font-size: 20px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    margin-bottom: 0px;
+  }
+
+  .content-body .content-txt.is-flagshipshop {
+    margin-bottom: 40px;
+  }
+
+  .flagshipshop-info-wrap .info-list-wrap .info-list {
+    margin-left: 0px;
+  }
+
+  .flagshipshop-info-wrap .info-list-wrap .info-list li {
+    display: block;
+    text-align: center;
+  }
+
+  .flagshipshop-info-wrap .info-list-wrap .info-list li {
+    padding: 12px 0px;
+    font-size: 12px;
+    line-height: 180%;
+  }
+
+  .flagshipshop-info-wrap .info-list-wrap .info-list li .title {
+    width: 100%;
+  }
+
+  .flagshipshop-info-wrap .info-list-wrap .info-list li .date {
+    width: 100%;
+  }
+
+  /* 下方两图 */
+  .content-rightmargin-wrap {
+    margin-bottom: 20px;
+  }
+
+  .content-rightmargin-wrap {
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .content-rightmargin-wrap .content-rightmargin-inner {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 678px) {
+  .content-body {
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+
+  .tb-pc {
+    display: block;
+  }
+
+  .content-kv-rightmargin-inner img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
