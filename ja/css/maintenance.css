@@ -227,6 +227,14 @@ main {
     font-style: normal;
     line-height: 120%;
   }
+  .content-body .content-txt.is-center {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .btn-contact-wrap .btn-contact {
+    padding: 20px 80px 17px 80px;
+  }
 }
 
 @media screen and (min-width: 678px) {
